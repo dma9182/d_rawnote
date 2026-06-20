@@ -1,0 +1,58 @@
+# ======================
+# Build outputs
+# ======================
+
+study
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+
+
+# ======================
+# Build folders
+# ======================
+
+build/
+bin/
+obj/
+
+
+# ======================
+# Debug files
+# ======================
+
+*.log
+*.dSYM/
+
+
+# ======================
+# Editor stuff
+# ======================
+
+.vscode/
+.idea/
+.zed/
+
+
+# ======================
+# clangd
+# ======================
+
+.cache/
+.clangd/
+
+# optional:
+# ignore if you don't want to commit clang database
+compile_commands.json
+
+
+# ======================
+# OS junk
+# ======================
+
+.DS_Store
+Thumbs.db
